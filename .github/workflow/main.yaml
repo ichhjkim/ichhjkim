@@ -36,7 +36,7 @@ jobs:
           git pull
           git add .
           git diff
-          git config --local user.email "@naver.com"
+          git config --local user.email "mting12@naver.com"
           git config --local user.name "KIM HYUNJI"
           git commit -m "Update README.md"
           git push
