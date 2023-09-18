@@ -20,7 +20,7 @@ markdown_text = """
 
 """ 
  
-for content in feed['entries'][:3]:
+for content in feed['entries'][:5]:
     markdown_text += f"<a href =\"{content['link']}\"> {content['title']} </a> <br>"
     print(content['link'], content['title'])
     print(content)
